@@ -2,10 +2,11 @@ import requests, bs4
 import urllib.request
 import urllib.error
 
-month = '04'
-subdomain = 'deustch'
+month = '06'
+subdomain = 'deutsch'
 # directory = 'https://turkey.euonymus.info/wp-content/uploads/2014/'
-directory = 'https://' + subdomain + '.euonymus.info/wp-content/uploads/2014/'
+directory = 'https://' + subdomain + '.euonymus.info/wp-content/uploads/2013/'
+
 def download():
     # res = requests.get('08.html')
     # res.raise_for_status()
